@@ -68,7 +68,7 @@ print("A-nin determinanti:", np.linalg.det(A))
 det = np.linalg.det(A)
 
 if det == 0:
-    print("This matrix does not have an inverse")
+    print("This matrix does not have an inverse") 
 else:
     print("Inverse of matrix A:", np.linalg.inv(A))
 ⚠️ Notes
